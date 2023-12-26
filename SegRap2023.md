@@ -1,4 +1,4 @@
-# SegRap2023: A Benchmark of Organs-at-Risk and Gross Tumor Volume Segmentation for Radiotherapy Planning of Nasopharyngeal Carcinoma
+![image](https://github.com/Fujia1998/dataset/assets/41410137/72fb4256-07b7-49ef-adaa-fa8191d35f41)# SegRap2023: A Benchmark of Organs-at-Risk and Gross Tumor Volume Segmentation for Radiotherapy Planning of Nasopharyngeal Carcinoma
 
 Radiation therapy is a primary and effective treatment strategy for nasopharyngeal carcinoma (NPC). The precise delineation of the gross tumor volume (GTV) and organs at risk (OARs) is crucial during the radiation treatment process for NPC, directly impacting patient treatment outcomes and prognosis. Previously, the delineation of GTVs and OARs was performed by experienced radiation oncologists. Recently, deep learning has achieved promising results in many medical image segmentation tasks. However, for NPC's OARs and GTVs, few public datasets are available for model development and evaluation. To advance research in this area, the Segmentation of Organs-at-Risk and Gross Tumor Volume Segmentation for Nasopharyngeal Carcinoma Radiation Therapy Planning Challenge (SegRap2023) was organized in conjunction with MICCAI2023. SegRap2023 represents the first large-scale benchmark for OARs and GTVs, providing 400 CT scans from 200 NPC patients, each with a pair of pre-aligned non-contrast and contrast-enhancement scans. The challenge's goal was to accurately segment 45 OARs and 2 GTVs from the paired CT scans, a task made challenging by the significant differences in OAR/GTV size, ambiguous boundaries, and class imbalance. In this paper, we detail the challenge and analyze the solutions of all participants. The average Dice scores for the submitted solutions ranged from 0.7668 to 0.8670 for OARs segmentation and from 0.7042 to 0.7344 for GTVs segmentation. Based on these results, we argue that while segmentation of large-size OARs is well-addressed, greater focus should be placed on GTVs and small-size or thin-structure OARs to better support clinical practice.
 
@@ -84,6 +84,15 @@ This project is released under the [Apache 2.0 license](LICENSE).
 ## 🖊️ Citation
 
 ```
-TODO
+Luo, X., Fu, J., Zhong, Y., Liu, S., Han, B., Astaraki, M., Bendazzoli, S., Toma-Dasu, I., Ye, Y., Chen, Z. and Xia, Y., 2023. SegRap2023: A Benchmark of Organs-at-Risk and Gross Tumor Volume Segmentation for Radiotherapy Planning of Nasopharyngeal Carcinoma. arXiv preprint arXiv:2312.09576.
+
+or
+
+@article{luo2023segrap2023,
+title={SegRap2023: A Benchmark of Organs-at-Risk and Gross Tumor Volume Segmentation for Radiotherapy Planning of Nasopharyngeal Carcinoma},
+author={Luo, Xiangde and Fu, Jia and Zhong, Yunxin and Liu, Shuolin and Han, Bing and Astaraki, Mehdi and Bendazzoli, Simone and Toma-Dasu, Iuliana and Ye, Yiwen and Chen, Ziyang and others},
+journal={arXiv preprint arXiv:2312.09576},
+year={2023}
+}
 ```
 
